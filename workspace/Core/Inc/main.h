@@ -57,6 +57,13 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define SPIRIT1_GPIO3_Pin GPIO_PIN_5
+#define SPIRIT1_GPIO3_GPIO_Port GPIOE
+#define SPIRIT1_GPIO3_EXTI_IRQn EXTI9_5_IRQn
+#define SPIRIT1_SDN_Pin GPIO_PIN_15
+#define SPIRIT1_SDN_GPIO_Port GPIOB
+#define SPIRIT1_SPI_CSn_Pin GPIO_PIN_5
+#define SPIRIT1_SPI_CSn_GPIO_Port GPIOB
 #define I2C1_SCL_Pin GPIO_PIN_8
 #define I2C1_SCL_GPIO_Port GPIOB
 #define I2C1_SDA_Pin GPIO_PIN_9

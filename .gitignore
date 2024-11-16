@@ -58,3 +58,4 @@ workspace/.metadata/
 workspace/RemoteSystemsTempFiles/
 *.launch
 *.mxproject
+workspace/*.launch
