@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# Temp files
+*.swp
+*.swo
+
 # Object files
 *.o
 *.ko
