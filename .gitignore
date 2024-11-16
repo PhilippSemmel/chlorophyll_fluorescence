@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# Temp files
+*.swp
+*.swo
+
 # Object files
 *.o
 *.ko
@@ -53,3 +57,8 @@ dkms.conf
 
 # STM32 CubeIDE
 workspace/.settings/
+workspace/.metadata/
+workspace/Debug/
+workspace/RemoteSystemsTempFiles/
+*.mxproject
+*.launch
