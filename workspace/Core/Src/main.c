@@ -99,7 +99,9 @@ int main(void)
   printf("Test\r\n");
   uint8_t data = 0;
   A7265x_Read(&hi2c1, A7265X_HW_VERSION_H, &data, 1);
-  printf("Test data: 0b%x\r\n", data);
+  printf("HW Version H: 0b%x\r\n", data);
+  A7265x_Read(&hi2c1, A7265X_HW_VERSION_L, &data, 1);
+  printf("HW Version L: 0b%x\r\n", data);
   /* USER CODE END 2 */
 
   /* Infinite loop */
