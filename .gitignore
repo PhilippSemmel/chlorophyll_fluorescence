@@ -57,8 +57,3 @@ dkms.conf
 
 # STM32 CubeIDE
 workspace/.settings/
-workspace/Debug/
-workspace/.metadata/
-workspace/RemoteSystemsTempFiles/
-*.launch
-*.mxproject
