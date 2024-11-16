@@ -1,4 +1,0 @@
-../Core/Src/helper_functions.c:24:13:transmit_char	1
-../Core/Src/helper_functions.c:27:13:receive_char	1
-../Core/Src/helper_functions.c:47:1:__io_putchar	1
-../Core/Src/helper_functions.c:57:1:__io_getchar	1
