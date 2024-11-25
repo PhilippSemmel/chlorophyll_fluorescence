@@ -43,6 +43,16 @@
 #define AS7265_RAW_VALUE_5_H              0x12
 #define AS7265_RAW_VALUE_5_L              0x13
 
+#define AS7265_FW_CNTRL                   0x48
+#define AS7265_FW_BYTE_COUNT_H            0x49
+#define AS7265_FW_BYTE_COUNT_L            0x4A
+#define AS7265_DEV_SEL                    0x4F
+
+/**\name selectable devices */
+#define AS7265_DEVICE_GREEN               0b00
+#define AS7265_DEVICE_RED                 0b01
+#define AS7265_DEVICE_BLUE                0b10
+
 #define AS7265_I2C_SLAVE_TX_VALID         0x02
 #define AS7265_I2C_SLAVE_RX_VALID         0x01
 
